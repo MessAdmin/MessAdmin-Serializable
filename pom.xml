@@ -28,10 +28,6 @@
 			<artifactId>MessAdmin-Core</artifactId>
 		</dependency>
 		<!-- Provided dependencies -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-		</dependency>
 		<!-- Run-time dependencies -->
 		<!-- Test-time dependencies -->
 	</dependencies>

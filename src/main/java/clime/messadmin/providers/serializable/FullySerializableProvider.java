@@ -18,9 +18,11 @@ import clime.messadmin.providers.spi.SerializableProvider;
 public class FullySerializableProvider implements SerializableProvider {
 	private static final OutputStream nullOutputStream = new OutputStream() {
 		/** {@inheritDoc} */
+		@Override
 		public void write(int b) throws IOException {
 		}
 		/** {@inheritDoc} */
+		@Override
 		public void write(byte[] b, int off, int len) throws IOException {
 		}
 	};
